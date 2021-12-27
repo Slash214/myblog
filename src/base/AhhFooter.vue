@@ -1,7 +1,7 @@
 <template>
-  <div class="">
-    博客
-  </div>
+  <footer>
+    我是底部
+  </footer>
 </template>
 
 <script>

@@ -1,17 +1,20 @@
 <template>
   <div id="app">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+    <ahh-header></ahh-header>
     <router-view/>
+    <ahh-footer></ahh-footer>
   </div>
 </template>
 
-<style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+<script>
+import AhhHeader from './base/AhhHeader.vue'
+import AhhFooter from './base/AhhFooter.vue'
+export default {
+  components: {
+    AhhHeader,
+    AhhFooter
+  }
 }
+</script>
+<style lang="scss">
 </style>
