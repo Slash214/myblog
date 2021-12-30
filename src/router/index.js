@@ -28,6 +28,11 @@ const routes = [
     path: '/share',
     name: 'share',
     component: () => import('../views/Share.vue')
+  },
+  {
+    path: '*',
+    name: '404',
+    component: () => import('../views/404.vue')
   }
 ]
 

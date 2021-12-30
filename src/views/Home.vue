@@ -75,10 +75,10 @@ export default {
   margin-top: 20px;
   position: relative;
   .left {
-    width: 1000px;
+    width: 70%;
     .card {
       padding: 20px;
-      box-shadow: 0 1px 10px 4px #ddd;
+      box-shadow: 0 0 10px 2px #bdbdbd;
       border-radius: 6px;
       background: #fff;
       text-align: justify;
@@ -97,7 +97,7 @@ export default {
     }
   }
   .right {
-    width: 300px;
+    width: 25%;
     .info {
       width: 100%;
       box-sizing: border-box;
